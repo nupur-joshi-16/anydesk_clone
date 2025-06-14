@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  margin : 0;
+  padding : 0;
+  box-sizing : border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 1
+}
+
+.sd-header {
+  width: 100%;
+  max-width : 1366px;
+  height : 80px;
+  /* background-color : #f5f5f5; */
+  margin : 0 auto;
+  display : flex;
+  /* justify-content : space-between; */
+  align-items : center;
+}
+
+.sd-header__logo h1 {
+   font-size : 32px;
+   font-weight : 700;
+}
+
+.sd-header__nav {
+   flex-grow : 1;
+   padding-left : 40px;
+}
+
+.sd-header__nav ul {
+  display : flex;
+  align-items : center;
+  list-style : none;
+}
+
+.sd-header__nav ul li {
+   padding: 16px 16px;
+   font-size : 16px;
+   font-weight : 400;
+}
+
+button {
+  font-size: 16px;
+  padding : 12px 16px;
+  border : none;
+  outline : none;
+  background : none;
+  font-weight : 600;
+  border-radius : 8px;
+}
+
+.sd-header__actions {
+   justify-content : flex-end;
+}
+
+.sd-btn__primary {
+   background-color: #ef443b;
+   color : #fff;
+}
+
+.sd-btn__outline {
+   color : #ef443b;
+   border : 2px solid #ef443b;
+   margin-left : 8px;
+}
+
+
